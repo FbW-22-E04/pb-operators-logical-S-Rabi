@@ -3,13 +3,13 @@ let isDogBetter = true;
 let isCatBetter = false;
 console.log(isDogBetter && isCatBetter);
 console.log(isDogBetter || isCatBetter);
-console.log(!isDogBetter && isCatBetter);
+console.log(!(isDogBetter && isCatBetter));
 // 2:
 const atoms = 2;
 const sandGrains = 4;
 const starsInSky = 7;
 // 3:
-console.log(atoms > starsInSky && sandGrains);
+console.log(atoms > starsInSky && atoms > sandGrains);
 console.log(atoms !== sandGrains);
 console.log(starsInSky < sandGrains || starsInSky > atoms);
 console.log(atoms == starsInSky || atoms !== sandGrains);
